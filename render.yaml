@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ci-cd-node-app
+    runtime: docker
+    plan: free
+    autoDeploy: true
