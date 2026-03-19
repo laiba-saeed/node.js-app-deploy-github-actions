@@ -10,6 +10,7 @@ function createApp() {
   return app;
 }
 
+
 const app = createApp();
 
 if (process.env.NODE_ENV !== "test") {
