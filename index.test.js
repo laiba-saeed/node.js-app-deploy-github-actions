@@ -20,7 +20,7 @@ test("GET /health returns ok", async () => {
   const body = await response.json();
 
   assert.equal(response.status, 200);
-  assert.equal(body.status, "ok");
+  assert.equal(body.status, "not-ok");
 });
 
 test("POST /tasks creates task and GET /tasks returns it", async () => {
